@@ -1,6 +1,7 @@
-# Anthropic / Claude. First-party only.
-# Source: https://github.com/VPSDance/ai-proxy-rules/blob/main/rules/clash/anthropic.yaml
+# Anthropic / Claude.
+# Source: https://github.com/VPSDance/ai-proxy-rules/blob/main/rules/clash/anthropic.yaml + custom additions
 rules:
+  # Core
   - DOMAIN-SUFFIX,anthropic.com
   - DOMAIN-SUFFIX,claude.ai
   - DOMAIN-SUFFIX,claude.com
@@ -17,6 +18,18 @@ rules:
   - DOMAIN,anthropic.auth0.com
   - DOMAIN,anthropic.com.cdn.cloudflare.net
   - DOMAIN,servd-anthropic-website.b-cdn.net
+
+  # Telemetry / Support / Payment / Push
+  - DOMAIN,api-iam.intercom.io
+  - DOMAIN,nexus-websocket-a.intercom.io
+  - DOMAIN-SUFFIX,us5.datadoghq.com
+  - DOMAIN,r.stripe.com
+  - DOMAIN-SUFFIX,us.sentry.io
+  - DOMAIN-SUFFIX,siftscience.com
+  - DOMAIN,fcmtoken.googleapis.com
+
+  # IP / ASN
+  - IP-CIDR,34.8.0.0/16,no-resolve
   - IP-CIDR,160.79.104.0/21,no-resolve
   - IP-CIDR6,2607:6bc0::/32,no-resolve
   - IP-ASN,399358,no-resolve
