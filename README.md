@@ -14,18 +14,31 @@ rule/Shadowrocket/    小火箭，.list
 
 ## 现在有什么
 
-6 份独立 AI 规则，只收这些软件自己的域名：
+19 份独立 AI 规则，只收这些软件自己的域名：
 
 - **OpenAI**（`src/openai.yaml`）：OpenAI / ChatGPT / Sora
 - **Claude**（`src/claude.yaml`）：Anthropic / Claude
+- **GoogleAI**（`src/google-ai.yaml`）：Google AI / Gemini / AI Studio / NotebookLM / Antigravity
 - **Grok**（`src/grok.yaml`）：xAI / Grok
 - **Cursor**（`src/cursor.yaml`）：Cursor
 - **Copilot**（`src/copilot.yaml`）：GitHub / Microsoft Copilot
-- **GoogleAI**（`src/google-ai.yaml`）：Google AI / Gemini / AI Studio / NotebookLM / Antigravity
+- **Perplexity**（`src/perplexity.yaml`）：Perplexity
+- **Poe**（`src/poe.yaml`）：Poe
+- **MetaAI**（`src/meta-ai.yaml`）：Meta AI / Llama
+- **Groq**（`src/groq.yaml`）：Groq
+- **OpenRouter**（`src/openrouter.yaml`）：OpenRouter
+- **Windsurf**（`src/windsurf.yaml`）：Windsurf / Codeium
+- **Zed**（`src/zed.yaml`）：Zed AI
+- **JetBrainsAI**（`src/jetbrains-ai.yaml`）：JetBrains AI / Junie / Grazie
+- **Dify**（`src/dify.yaml`）：Dify
+- **Jasper**（`src/jasper.yaml`）：Jasper AI
+- **OpenArt**（`src/openart.yaml`）：OpenArt
+- **Clipdrop**（`src/clipdrop.yaml`）：Clipdrop
+- **CloudflareAI**（`src/cloudflare-ai.yaml`）：Cloudflare AI Gateway / Workers AI
 
 ## 订阅
 
-将 `<Name>` 替换为 `OpenAI`、`Claude`、`Grok`、`Cursor`、`Copilot` 或 `GoogleAI`。
+将 `<Name>` 替换为上面任意规则名（如 `OpenAI`、`Claude`、`GoogleAI`、`Grok` 等）。
 
 Clash / Mihomo（`behavior: classical`）：
 

@@ -1,0 +1,4 @@
+# Dify. First-party only.
+# Source: https://github.com/VPSDance/ai-proxy-rules/blob/main/rules/clash/dify.yaml
+rules:
+  - DOMAIN-SUFFIX,dify.ai

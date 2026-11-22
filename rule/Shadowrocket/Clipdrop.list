@@ -1,0 +1,3 @@
+# Clipdrop (Stability AI). First-party only.
+# Source: https://github.com/VPSDance/ai-proxy-rules/blob/main/rules/clash/clipdrop.yaml
+DOMAIN-SUFFIX,clipdrop.co

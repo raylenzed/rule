@@ -1,0 +1,4 @@
+# OpenRouter. First-party only.
+# Source: https://github.com/VPSDance/ai-proxy-rules/blob/main/rules/clash/openrouter.yaml
+payload:
+  - DOMAIN-SUFFIX,openrouter.ai

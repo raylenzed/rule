@@ -1,0 +1,4 @@
+# Groq. First-party only.
+# Source: https://github.com/VPSDance/ai-proxy-rules/blob/main/rules/clash/groq.yaml
+rules:
+  - DOMAIN-SUFFIX,groq.com

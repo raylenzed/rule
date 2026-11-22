@@ -1,0 +1,15 @@
+# Meta AI / Llama. First-party only.
+# Source: https://github.com/VPSDance/ai-proxy-rules/blob/main/rules/clash/meta-ai.yaml
+payload:
+  - DOMAIN,ai.developer.meta.com
+  - DOMAIN,ai.meta.com
+  - DOMAIN,aidemos.meta.com
+  - DOMAIN,developer.meta.com
+  - DOMAIN,llama.developer.meta.com
+  - DOMAIN-SUFFIX,atmeta.com
+  - DOMAIN-SUFFIX,llama.com
+  - DOMAIN-SUFFIX,llamameta.net
+  - DOMAIN-SUFFIX,meta.ai
+  - DOMAIN-SUFFIX,metaaiusercontent.com
+  - DOMAIN-SUFFIX,metaaivm.com
+  - DOMAIN-SUFFIX,muse.ai

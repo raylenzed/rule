@@ -1,0 +1,3 @@
+# Zed AI. First-party only.
+# Source: https://github.com/VPSDance/ai-proxy-rules/blob/main/rules/clash/zed.yaml
+DOMAIN-SUFFIX,zed.dev
