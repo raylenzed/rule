@@ -1,5 +1,0 @@
-# JetBrains AI / Junie / Grazie. First-party only.
-# Source: https://github.com/VPSDance/ai-proxy-rules/blob/main/rules/clash/jetbrains-ai.yaml
-DOMAIN-SUFFIX,grazie.ai
-DOMAIN-SUFFIX,grazie.aws.intellij.net
-DOMAIN-SUFFIX,jetbrains.ai

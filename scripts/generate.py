@@ -7,24 +7,10 @@ src_dir = root / "src"
 
 OUTPUT_NAMES = {
     "claude": "Claude",
-    "clipdrop": "Clipdrop",
-    "cloudflare-ai": "CloudflareAI",
-    "copilot": "Copilot",
-    "cursor": "Cursor",
-    "dify": "Dify",
     "google-ai": "GoogleAI",
     "grok": "Grok",
-    "groq": "Groq",
-    "jasper": "Jasper",
-    "jetbrains-ai": "JetBrainsAI",
     "meta-ai": "MetaAI",
     "openai": "OpenAI",
-    "openart": "OpenArt",
-    "openrouter": "OpenRouter",
-    "perplexity": "Perplexity",
-    "poe": "Poe",
-    "windsurf": "Windsurf",
-    "zed": "Zed",
 }
 
 

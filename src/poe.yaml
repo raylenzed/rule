@@ -1,5 +1,0 @@
-# Poe. First-party only.
-# Source: https://github.com/VPSDance/ai-proxy-rules/blob/main/rules/clash/poe.yaml
-rules:
-  - DOMAIN-SUFFIX,poe.com
-  - DOMAIN-SUFFIX,poecdn.net

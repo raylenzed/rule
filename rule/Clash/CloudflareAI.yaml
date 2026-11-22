@@ -1,5 +1,0 @@
-# Cloudflare AI Gateway & Workers AI. First-party only.
-# Source: https://github.com/VPSDance/ai-proxy-rules/blob/main/rules/clash/cloudflare-ai.yaml
-payload:
-  - DOMAIN,api.cloudflare.com
-  - DOMAIN-SUFFIX,ai.cloudflare.com

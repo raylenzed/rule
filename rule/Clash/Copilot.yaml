@@ -1,9 +1,0 @@
-# GitHub / Microsoft Copilot. First-party only.
-# Source: https://github.com/VPSDance/ai-proxy-rules/blob/main/rules/clash/copilot.yaml
-payload:
-  - DOMAIN-SUFFIX,githubcopilot.com
-  - DOMAIN-SUFFIX,copilot.microsoft.com
-  - DOMAIN,copilot-proxy.githubusercontent.com
-  - DOMAIN,copilot-workspace.githubnext.com
-  - DOMAIN,copilotprodattachments.blob.core.windows.net
-  - DOMAIN,sydney.bing.com

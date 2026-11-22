@@ -1,7 +1,0 @@
-# Windsurf (formerly Codeium). First-party only.
-# Source: https://github.com/VPSDance/ai-proxy-rules/blob/main/rules/clash/windsurf.yaml
-payload:
-  - DOMAIN-SUFFIX,codeium.com
-  - DOMAIN-SUFFIX,codeiumdata.com
-  - DOMAIN-SUFFIX,windsurf.build
-  - DOMAIN-SUFFIX,windsurf.com
