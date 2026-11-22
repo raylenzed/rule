@@ -1,8 +1,11 @@
-# Google AI / Gemini / AI Studio / NotebookLM. First-party only.
-# Source: https://github.com/VPSDance/ai-proxy-rules/blob/main/rules/clash/google-ai.yaml
-payload:
+# Google AI / Gemini / AI Studio / NotebookLM / Antigravity. First-party only.
+# Sources:
+# - https://github.com/VPSDance/ai-proxy-rules/blob/main/rules/clash/google-ai.yaml
+# - https://ruleset.skk.moe/List/non_ip/ai.conf (Google AI / Antigravity endpoints)
+rules:
   - DOMAIN-SUFFIX,gemini.google.com
   - DOMAIN-SUFFIX,gemini.google
+  - DOMAIN-SUFFIX,g.ai
   - DOMAIN-SUFFIX,aistudio.google.com
   - DOMAIN-SUFFIX,ai.google.dev
   - DOMAIN-SUFFIX,ai.studio
@@ -15,6 +18,7 @@ payload:
   - DOMAIN-SUFFIX,bard.google.com
   - DOMAIN-SUFFIX,antigravity.google
   - DOMAIN-SUFFIX,antigravity.google.com
+  - DOMAIN,antigravity-unleash.goog
   - DOMAIN-SUFFIX,gemini.gstatic.com
   - DOMAIN-SUFFIX,makersuite.google.com
   - DOMAIN-SUFFIX,jules.google
@@ -25,7 +29,13 @@ payload:
   - DOMAIN,notebooklm.googleapis.com
   - DOMAIN,antigravity-pa.googleapis.com
   - DOMAIN,antigravity.googleapis.com
+  - DOMAIN,aida.googleapis.com
   - DOMAIN,cloudaicompanion.googleapis.com
-  - DOMAIN,cloudcode-pa.googleapis.com
+  - DOMAIN-SUFFIX,cloudcode-pa.googleapis.com
+  - DOMAIN,daily-cloudcode-pa.googleapis.com
+  - DOMAIN,daily-cloudcode-pa.sandbox.googleapis.com
+  - DOMAIN-SUFFIX,geller-pa.googleapis.com
+  - DOMAIN,robinfrontend-pa.googleapis.com
+  - DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
   - DOMAIN-SUFFIX,aicode.googleapis.com
   - DOMAIN-SUFFIX,aisandbox-pa.googleapis.com

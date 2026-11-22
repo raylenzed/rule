@@ -21,11 +21,11 @@ rule/Shadowrocket/    小火箭，.list
 - **Grok**（`src/grok.yaml`）：xAI / Grok
 - **Cursor**（`src/cursor.yaml`）：Cursor
 - **Copilot**（`src/copilot.yaml`）：GitHub / Microsoft Copilot
-- **Gemini**（`src/gemini.yaml`）：Google AI / Gemini / AI Studio / NotebookLM
+- **GoogleAI**（`src/google-ai.yaml`）：Google AI / Gemini / AI Studio / NotebookLM / Antigravity
 
 ## 订阅
 
-将 `<Name>` 替换为 `OpenAI`、`Claude`、`Grok`、`Cursor`、`Copilot` 或 `Gemini`。
+将 `<Name>` 替换为 `OpenAI`、`Claude`、`Grok`、`Cursor`、`Copilot` 或 `GoogleAI`。
 
 Clash / Mihomo（`behavior: classical`）：
 

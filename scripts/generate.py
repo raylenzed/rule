@@ -9,7 +9,7 @@ OUTPUT_NAMES = {
     "claude": "Claude",
     "copilot": "Copilot",
     "cursor": "Cursor",
-    "gemini": "Gemini",
+    "google-ai": "GoogleAI",
     "grok": "Grok",
     "openai": "OpenAI",
 }
